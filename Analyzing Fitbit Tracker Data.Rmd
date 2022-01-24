@@ -1,0 +1,22 @@
+---
+title: "Analyzing Fitbit Tracker Data"
+author: "Leonie Nutz"
+date: "1/22/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Next, I will use R to check the analyze the data set in order to identify trends and patterns.
+
+## Loading the dataset and all necessary packages
+```{r}
+# import all relevant packages
+library(ggplot2)
+library(tidyverse)
+
+# load the csv file
+dailyactivity <- read.csv("C:\\Users\\lnutz\\Desktop\\Case Study Bellabeat\\Fitabase Data 4.12.16-5.12.16\\dailyActivity_merged.csv")
+```
+
